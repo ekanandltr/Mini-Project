@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mini_project/const.dart';
 import 'package:mini_project/models/onboards_model.dart';
-import 'package:mini_project/main.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mini_project/pages/login_page.dart';
 
 class OnBoardPage extends StatefulWidget {
   const OnBoardPage({Key? key}) : super(key: key);

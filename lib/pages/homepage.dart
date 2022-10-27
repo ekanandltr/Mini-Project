@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mini_project/const.dart';
 import 'package:mini_project/data.dart';
 import 'package:mini_project/models/pet_widget.dart';
+import 'package:mini_project/pages/category_list.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -196,12 +197,12 @@ class _HomepageState extends State<HomePage> {
   Widget buildPetCategory(Category category, String total, Color color){
     return Expanded(
       child: GestureDetector(
-        /*onTap: () {
+        onTap: () {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => CategoryList(category: category)),
           );
-        },*/
+        },
         child: Container(
           height: 80,
           padding: EdgeInsets.all(12),

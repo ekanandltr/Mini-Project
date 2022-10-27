@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mini_project/data.dart';
-import 'package:mini_project/pages/homepage.dart';
+import 'package:mini_project/pages/pet_detail.dart';
 
 class PetWidget extends StatelessWidget {
 
@@ -15,7 +15,7 @@ class PetWidget extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => HomePage()),
+          MaterialPageRoute(builder: (context) => PetDetail(pet: pet)),
         );
       },
       child: Container(
